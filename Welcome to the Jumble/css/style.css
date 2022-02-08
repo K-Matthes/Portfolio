@@ -1,0 +1,76 @@
+h1{
+    font-family: Verdana, sans-serif;
+}
+
+#sidebar{
+    position: fixed;
+    background-color: rgb(50, 50 ,50);
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    padding: 5%;
+}
+
+.result{
+    position: fixed;
+    left: 30%;
+    height: 50%;
+    width: 70%;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+#inputText{
+    margin-left: auto;
+}
+
+#caesar {
+    top: 0%;
+    background-color: rgb(245, 169, 193);
+    color: rgb(245, 135, 169)
+}
+
+#square {
+    top: 50%;
+    background-color: rgb(245, 135, 169);
+    color: rgb(245, 169, 193)
+}
+
+#range{
+    margin-left: auto;
+}
+
+#inputVal{
+    text-align: center;
+    width: 16px;
+}
+
+#button{
+    margin-left: auto;
+}
+
+#grid{
+    max-width: 156px;
+    text-align: center;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table{
+    width: 156px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+td{
+    padding: 5px;
+    table-layout: fixed;
+    border: solid;
+    border-collapse: collapse;
+}

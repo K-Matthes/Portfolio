@@ -1,0 +1,79 @@
+<!--
+    Author: Karly Matthes
+    Course: CSC 337
+    File Name: index.html
+    Description: Creates the website for Welcome To The Jumble, which encodes text
+    into Caesar Cipher and  Square Cipher.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="cypher.js"></script>
+        <title>Welcome to the Jumble</title>
+    </head> 
+    <body>
+        <div id="sidebar">
+            <h1>Welcome to the Jumble</h1>
+            <input oninput="startCipher();" id="inputText" type="text"><br><br>
+
+            <input type="range" min="0" max="26" value="0" id="range"
+                onchange="showVal(this.value);">
+
+            <input type="text" id="inputVal" value=""><br><br>
+
+            <input onclick="updateSquare();" type="button" value="Update Square" 
+                id="button" name="Update Square"><br><br>
+            
+            <div id="grid">
+                <table>
+                    <tr>
+                        <td>A</td>
+                        <td>B</td>
+                        <td>C</td>
+                        <td>D</td>
+                        <td>E</td>
+                    </tr>
+                    <tr>
+                        <td>F</td>
+                        <td>G</td>
+                        <td>H</td>
+                        <td>I</td>
+                        <td>J</td>
+                    </tr>
+                    <tr>
+                        <td>K</td>
+                        <td>L</td>
+                        <td>M</td>
+                        <td>N</td>
+                        <td>O</td>
+                    </tr>
+                    <tr>
+                        <td>P</td>
+                        <td>Q</td>
+                        <td>R</td>
+                        <td>S</td>
+                        <td>T</td>
+                    </tr>
+                    <tr>
+                        <td>U</td>
+                        <td>V</td>
+                        <td>W</td>
+                        <td>X</td>
+                        <td>Y</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="result" id="caesar">
+                Welcome to the Jumble
+            </div>
+
+            <div class="result" id="square">
+                Welcome to the Jumble
+            </div>
+        </div>
+    </body>
+</html>
