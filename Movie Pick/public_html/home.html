@@ -1,0 +1,44 @@
+<!--
+File: home.html
+Authors: Karly Matthes and Landon Krell
+Purpose: Skeleton of the home page of the site. Here the user can find the buttons
+that redirect them to other pages, and see posts live. 
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MoviePick: Home</title>
+    <link rel="stylesheet" href="./css/homeStyle.css">
+    <!-- JQUERY CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./client.js"></script>
+</head>
+<body onload="getMovies(), homeHeader()">
+    <div id="post">
+        <button id="postBtn" onclick="window.location.href='create.html';" >Create a New Post</button>
+    </div>
+
+    <div id="social">
+        <button id="friendBtn" onclick="window.location.href='match.html';" >Go to Social Page</button>
+        <button id="helpBtn" onclick="window.location.href='homeHelp.html';" > Help</button>
+    </div>
+    </div>
+
+     <!--***MIDDLE COLUMN -->
+    <h1 id="header"> </h1>
+
+    <div id=mcolumn>
+
+    </div>
+
+     <!--***SIDE COLUMNS -->
+    <div id="lcolumn" class="displayColumn"> </div>
+
+    <div id="rcolumn" class="displayColumn"> </div>
+
+    <div id="bottom">
+
+    </div>
+</body>
+</html>

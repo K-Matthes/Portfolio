@@ -1,0 +1,120 @@
+/**
+ * file: matchStyle.css
+ * authors: Karly Matthes and Landon Krell
+ * purpose: Stylizes match page
+ */
+ 
+ body{
+    background-color: rgb(205, 231, 176);
+    font-family: Arial;
+}
+
+h3{
+    color: rgb(190, 110, 70);
+}
+.friendDisplay {
+    background-color:rgb(134, 158, 139);
+    border: 1px solid rgb(117, 67, 42);
+    overflow: scroll;
+    height: 25vh;
+    width: 28vw;
+    font-family: monospace;
+    font-size: large;
+
+}
+
+#sendfrbutton {
+    cursor: pointer;
+}
+
+#sendfrbutton:hover {
+    background-color: rgb(190, 110, 70);
+}
+
+.acceptFrequest{
+    cursor: pointer;
+    background-color: lightgreen;
+}
+
+.declineFrequest{
+    cursor: pointer;
+    background-color: red;
+}
+
+.frequest{
+    border: 1px solid black;
+    background-color: lightblue;
+}
+
+.friendView {
+    border: 1px solid black;
+    background-color: gold;
+}
+
+#homebtn {
+    cursor: pointer;
+}
+
+#matchDiv {
+    position: fixed;
+    right: 5px;
+    top: 5%;
+    background-color: rgb(134, 158, 139);
+    border: 1px solid rgb(117, 67, 42);
+    width: 34%;
+    height: 90%;
+    padding: 10px;
+}
+
+#matchFrnd {
+    color:rgb(62, 87, 67);
+    text-align: center;
+
+}
+
+#matcher {
+    margin-left:70px;
+}
+
+#mmheader {
+    text-align: center;
+}
+
+#likeScroll {
+    position: fixed;
+    width: 34%;
+    top: 10%;
+    left: 31%;
+    height: 90%;
+    background-color: lightgray;
+
+}
+
+#sender{
+    width: 15%;
+}
+
+.movieDisp {
+    overflow: scroll;
+    height: 80%;
+}
+
+button:hover{
+    background-color: rgb(190, 110, 70);
+}
+#matchbtn {
+    cursor: pointer;
+}
+
+
+.likeBtn {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    height: 40vh;
+    width: 23.5vw;
+    border: rgb(134, 158, 139) 5px ridge;
+
+}

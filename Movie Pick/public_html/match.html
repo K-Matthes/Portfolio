@@ -1,0 +1,73 @@
+<!--
+File: match.html
+Authors: Karly Matthes and Landon Krell
+Purpose: Skeleton of the match site, where the user can add friends, accept friend
+requests, and see what movies the user and their friends have in common.  
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Match</title>
+    <link rel="stylesheet" href="./css/matchStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./client.js"></script>
+    <title>Match</title>
+</head>
+<body onload="initialize()">
+    <h1 id="matchHead"> </h1>
+    <button id="homebtn" onclick="window.location.href='home.html';" > Back to Home</button>
+    <button id="socialbtn" onclick="window.location.href='socialHelp.html';" > Help</button>
+
+     <!--***FRIEND REQUESTS -->
+    <div id="friendArea">
+        <h3>Send a Friend Request</h3>
+        <div id="sendArea">
+            <label for="sender">Send a friend request: </label>
+            <div>
+                <input type="text" id="sender">
+                <button onclick="sendFriendRequest();" id="sendfrbutton" >Send </button>
+            </div>
+
+        </div><br>
+
+        <div id="sendRes">
+
+        </div>
+
+        <h3>Your Friend Requests</h3>
+        <div id="friendRequests" class="friendDisplay">
+
+        </div>
+
+        <div id="addFriendMessage">
+
+        </div>
+
+        <h3> Your Friends List</h3>
+        <div id="friendsList" class="friendDisplay">
+
+        </div>
+    </div>
+
+
+    <!--***MATCHED MOVIES WITH FRIENDS -->
+    <div id="matchDiv">
+        <h3 id="matchFrnd">Match With a Friend!</h3>
+        <div>
+            <div>
+                <input type="text" id="matcher">
+                <button onclick="getMatches();" id="matchbtn" >Match! </button>
+            </div>
+        </div>
+        <div id="matchDisp" class="movieDisp">
+
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>

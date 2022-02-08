@@ -1,0 +1,54 @@
+<!--
+File: create.html
+Authors: Karly Matthes and Landon Krell
+Purpose: Skeleton of create page, which allows for the user to add a post by
+filling out the required fields. Fields include: title of the film, rating,
+synopsis, genre, review and image upload.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MoviePick: Create</title>
+    <link rel="stylesheet" href="./css/createStyle.css">
+    <!-- JQUERY CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./client.js"></script>
+
+</head>
+<body>
+    <button id="createHelp" onclick="window.location.href='createHelp.html';" > Help</button>
+    <div id="border">
+    <h1> Create a New Post!</h1>
+    <div class="center">
+
+        <label for="title">Title of Film: </label>
+        <input type="text" id="title"><br><br>
+
+        <label for="rating">Personal Rating: </label>
+        <input type="text" id="rating"><br><br>
+
+        <label for="synopsis">Synopsis: </label>
+        <input type="text" id="synopsis"><br><br>
+
+        <label for="genre">Genre: </label>
+        <input type="text" id="genre"><br><br>
+
+        <label for="review">Review: </label>
+        <input type="text" id="review"><br><br>
+
+        <label for="imgpath">ImgPath: </label>
+        <input type="text" id="imgpath"><br><br>
+
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div id="imgLoad">
+                <input type="file" accept="image/*" name="photo">
+                <input onclick="addPost();" type="submit" class="upload" value="Share Post">
+            </div>
+
+        </form><br><br>
+    </div>
+</div>
+</body>
+</html>

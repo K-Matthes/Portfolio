@@ -1,0 +1,101 @@
+<!--
+File: index.html
+Authors: Karly Matthes and Landon Krell
+Purpose: Skeleton of the index page. Here the user is able to create a new account
+and login. Once the user has been authorized and can login, they will be redirected
+to the home page. 
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="./css/indexStyle.css">
+     <!-- CDN for JQUERY -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="./client.js"></script>
+     <title>Movie Pick</title>
+ </head>
+ <body>
+        <div id="indexBody">
+            <h1>Welcome to Movie Pick!</h1>
+
+            <h2>Login</h2>
+            <div class="content">
+                <label for="username">Username: </label>
+                <input type="text" id="username"><br><br>
+
+                <label for="password">Password: </label>
+                <input type="password" id="password"><br><br>
+
+                <button class="mpButton" onclick="login();">Login</button> <br><br>
+                <div id="loginMessage" class="resMessage">
+                </div>
+                <br><br>
+            </div>
+
+            <!--******CREATE ACCOUNT SEGMENT ******* -->
+            <h2>Create an Account</h2>
+            <div class="content">
+                <label for="newUsername">Username: </label>
+                <input type="text" id="newUsername"><br><br>
+
+                <label for="newPassword">Password: </label>
+                <input type="password" id="newPassword"><br><br>
+
+                <button class="mpButton" onclick="create();">Create</button>
+                <div id="createMsg" class="resMessage">
+
+                </div>
+            </div>
+            
+            <button id="helpBtn" onclick="window.location.href='indexHelp.html';" > Help</button>
+        </div>
+
+        <!--***SIDE COLUMNS -->
+        <div id="limagecolumn" class="displayColumn">
+            <div>
+                <img src="img/blackwidow.jpg" alt="BW" >
+                <img src="img/moneyball.jpg" alt="MB" >
+            </div>
+
+            <div>
+                <img src="img/goodwillhunting.jpg" alt="GWH">
+                <img src="img/monstersinc.jpg" alt="MI">
+            </div>
+
+            <div>
+                <img src="img/1917.jpg" alt="1917" >
+                <img src="img/zoolander.jpg" alt="ZOO" >
+            </div>
+
+            <div>
+                <img src="img/us.jpg" alt="1917" >
+                <img src="img/skyfall.jpg" alt="SF" >
+            </div>
+
+        </div>
+
+         <div id="rimagecolumn" class="displayColumn">
+             <div>
+                 <img src="img/twilight.jpg" alt="BW" >
+                 <img src="img/hitch.jpg" alt="HI" >
+             </div>
+
+             <div>
+                 <img src="img/greatestshowman.jpg" alt="GWH">
+                 <img src="img/gamenight.jpg" alt="GN">
+             </div>
+
+             <div>
+                 <img src="img/avengersendgame.jpg" alt="1917" >
+                 <img src="img/42.jpg" alt="42">
+             </div>
+
+             <div>
+                 <img src="img/spotlight.jpg" alt="1917" >
+                 <img src="img/fatherhood.jpg" alt="FH">
+             </div>
+         </div>
+ </body>
+</html>

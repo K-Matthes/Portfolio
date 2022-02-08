@@ -1,0 +1,14 @@
+---
+:id: 84672979
+:submitters:
+- :name: Karly C Matthes
+  :email: kmatthes@email.arizona.edu
+- :name: Landon Krell
+  :email: landonk88@email.arizona.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-08-06 06:13:24.547721000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-08-05 23:13:24.547721000 Z
+:status: processed
+:score: 17.0

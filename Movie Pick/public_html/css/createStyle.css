@@ -1,0 +1,51 @@
+/**
+ * file: createStyle.css
+ * authors: Karly Matthes and Landon Krell
+ * purpose: Stylizes create page
+ */
+
+ body{
+     background-color: rgb(205, 231, 176);
+     font-family: Arial;
+ }
+
+ h1{
+     color: rgb(114, 134, 160);
+     font-family: Arial;
+     letter-spacing: 4px;
+     text-align: center;
+ }
+
+ .center{
+    margin-left: 32%;
+ }
+ 
+
+ #border{
+     border-style: solid;
+     border-color: rgb(190, 110, 70);
+     border-width: 3px;
+     margin-top: 150px;
+     margin-left: 20%;
+     margin-right: 20%;
+     padding-bottom: 20px
+ }
+
+ button:hover {
+     color: rgb(117, 67, 42);
+     background-color: rgb(190, 110, 70);
+ }
+
+ .upload:hover{ 
+    color: rgb(117, 67, 42);
+    background-color: rgb(190, 110, 70);
+ }
+
+ #share{
+   margin-left: 145px;
+ }
+
+ #imgLoad {
+     margin-left: -40px;
+
+ }

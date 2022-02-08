@@ -1,0 +1,82 @@
+/**
+ * file: indexStyle.css
+ * authors: Karly Matthes and Landon Krell
+ * purpose: Stylizes index page
+ */
+
+body{
+    background-color: rgb(205, 231, 176);
+    font-family: Arial;
+}
+
+
+h1{
+    color: rgb(89, 89, 74);
+    font-size: 40px;
+    font-family: Arial;
+    letter-spacing: 3px;
+    text-align: center;
+    border: rgb(163, 191, 168) 5px solid;
+    padding: 10px;
+
+}
+
+h2{
+    color: rgb(190, 110, 70);
+    font-size: 32px;
+    font-family: Arial;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+#indexBody {
+    width: 40%;
+    position: fixed;
+    top: 7%;
+    right: 30%;
+    left: 30%;
+    overflow: scroll;
+}
+
+button:hover {
+    color: rgb(117, 67, 42);
+    background-color: rgb(190, 110, 70);
+}
+
+.mpButton {
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.content{
+   margin-left: 22%;
+}
+
+.resMessage {
+    color: red;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.displayColumn {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color: rgb(163, 191, 168);
+}
+
+#limagecolumn {
+    left: 0;
+
+}
+
+#rimagecolumn {
+    right: 0;
+}
+
+img {
+    height: 23.3vh;
+    width: 13vw;
+    border: rgb(134, 158, 139) 5px ridge;
+}

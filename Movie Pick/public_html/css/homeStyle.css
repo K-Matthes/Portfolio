@@ -1,0 +1,121 @@
+/**
+ * file: homeStyle.css
+ * authors: Karly Matthes and Landon Krell
+ * purpose: Stylizes home page
+ */
+
+ body {
+     background-color: rgb(205, 231, 176);
+     overflow-y: scroll;
+ }
+
+ h1 {
+    color: rgb(190, 110, 70);
+    font-family: Arial;
+    font-size: 35px;
+    letter-spacing: 3px;
+    text-align: center;
+ }
+
+ h2 {
+    font-family: Arial;
+    letter-spacing: 3px;
+    text-align: center;
+ }
+
+ img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40vh;
+    width: 23.5vw;
+    border: rgb(134, 158, 139) 5px ridge;
+
+ }
+
+ p {
+    text-align: center;
+    font-family: Arial;
+    overflow: auto;
+
+ }
+
+ a {
+     float: right;
+     text-decoration: none;
+     color: rgb(70, 92, 74);
+     font-size: 20px;
+ }
+
+ a:hover {
+    color:rgb(205, 231, 176);
+ }
+
+ .displayColumn {
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    background-color: rgb(134, 158, 139);
+    
+}
+
+#lcolumn {
+    left: 0;
+    width: 20%;
+    z-index: -1;
+    position: fixed;
+
+}
+
+#rcolumn {
+    right: 0;
+    width: 20%;
+    z-index: -1;
+    position: fixed;
+}
+
+#mcolumn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 82%;
+    position: fixed;
+    overflow: hidden;
+}
+
+#mcolumn:hover{
+    overflow-y: scroll;
+}
+
+
+#post {
+    float: right;
+}
+
+#social {
+    float: left;
+}
+
+button:hover {
+    background-color: rgb(190, 110, 70);
+}
+
+
+.likeBtn:hover {
+    background-color: rgb(190, 110, 70);
+}
+
+.likeBtn {
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.homeMovie {
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    word-wrap: break-word;
+}
+
