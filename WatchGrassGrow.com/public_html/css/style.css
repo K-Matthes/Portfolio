@@ -1,0 +1,123 @@
+body{
+    display: block;
+    background-color: rgb(106, 168, 117);
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(116, 214, 133);
+    color: rgb(255, 255, 255);
+    font-family: Monaco, monospace;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+
+#grass1 {
+    padding: 0px;
+    margin-left: 80px;
+
+}
+
+#grass2 {
+    padding:0px;
+    margin-right: 80px;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(116, 214, 133);
+    color: rgb(86, 156, 98);
+    font-family: 'Courier New', monospace;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+h3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Monaco, monospace;
+}
+
+div{
+    text-align: center;
+    color: rgb(53, 84, 59);
+    font-family: Monaco, monospace;
+    font-size: 25px;
+}
+
+#fname{
+    margin: 10px;
+    
+}
+
+#lname{
+    margin: 10px;
+}
+
+input[type="text"]{
+    color: rgb(86, 156, 98);
+    font-size: 20px;
+    font-family: Monaco, monospace;
+}
+
+#email{
+    margin: 10px;
+}
+
+#recov{
+    margin: 10px;
+}
+
+input[type="email"]{
+    color: rgb(86, 156, 98);
+    font-size: 20px;
+    font-family: Monaco, monospace;
+}
+
+#pswd{
+    margin: 10px;
+}
+
+input[type="password"]{
+    color: rgb(86, 156, 98);
+    font-size: 20px;
+    font-family: Monaco, monospace;
+}
+
+#bday{
+    margin: 10px;
+}
+
+input[type="date"]{
+    color: rgb(86, 156, 98);
+    font-size: 20px;
+    font-family: Monaco, monospace;
+}
+
+#yes{
+    margin: 10px;
+}
+
+#no{
+    margin: 10px;
+}
+
+#sub{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#question{
+    display: inline-block;
+    font-size: 23px;
+}
+#satis{
+    display: inline-block;
+}

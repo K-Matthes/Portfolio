@@ -1,0 +1,65 @@
+<!-- 
+    Author: Karly Matthes
+    Course: CSC 337, Summer 21
+    File Name: index.html
+    Description: This site allows for the user to sign up and create an account with 
+    watchgrassgrow.com. It will ask for username (which has to be properly capitalized), 
+    password (which must be 8+ characters), email and recovery email, birthday, satisfaction
+    level and the option to select yes or no for news updates. Some fields are required in 
+    order to successfully submit the form while some are not. This site posts to benjdd.com/sp.
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+		<title>watchgrassgrow.com</title>
+    </head>
+    <body>
+        <h1><img id="grass1" src="img/grass.jpg" alt="grass" width="200"> Watch Grass Grow
+            <img id="grass2" src="img/grass.jpg" alt="grass" width="200"></h1>
+        <h2>watchgrassgrow.com</h2>
+        <h3>To join our community of grass-growing watchers, please sign-up by filling out the
+            boxes below.
+        </h3>
+        <form action="https://benjdd.com/sp" method="post">
+
+            <div>
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="fname" 
+            pattern="[A-Z][a-z]*" title="Must capitalize the first letter." required><br>
+
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" name="lname" 
+            pattern="[A-Z][a-z]*" title="Must capitalize the first letter." required><br>
+
+            <label for="email">Email Address: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="recov">Recovery Email Address: </label>
+            <input type="email" id="recov" name="recov"><br>
+            
+            <label for="pswd">Password: </label>
+            <input type="password" id="pswd" name="pswd" 
+            pattern=".{8,}" title="Password must be 8 or more characters." required><br>
+
+            <label for="bday">Birthday: </label>
+            <input type="date" id="bday" name="bday"><br>
+
+            <p id="sub">Would you like to subscribe to our weekly newsletter to keep up with upcoming
+                grass-watching events? 
+            </p>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="choice" required>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="choice" required><br>
+
+            <p id="question">How satisfied are you with our events? Satisfaction level (1-10)</p>
+            <input type="range" id="satis" name="satis" min="1" max="10"><br>
+
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+        </form>
+    </body>
+</html>
