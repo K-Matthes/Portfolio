@@ -1,0 +1,113 @@
+/* 
+    Author: Karly Matthes
+    Course: CSC 337
+    File Name: styleA.css
+    Description: Styles the index.html file using these CSS attributes
+    to match the example as closely as possible. Colors and fonts vary 
+    from the original example.
+*/
+
+body{   
+    background-color: rgb(245, 229, 144);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    padding-right: 20px;
+    color: rgb(189, 132, 34);
+    font-size: 40px;
+}
+
+#header{
+    background-color: rgb(235, 218, 110);
+    color: rgb(189, 132, 34);
+    font-family: Veranda, sans-serif;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    text-align: right;
+    padding-right: 60px;
+    z-index: 2;
+}
+
+#pricecoLogo{
+    max-width: 15%;
+    height: auto;
+    width: auto;
+    float: left;
+    margin-top: -27px;
+    top: 0px;
+    left: 0px;
+}
+
+#navigation{
+    background-color: rgb(212, 194, 80);
+    position: fixed;
+    height: 700px;
+    z-index: 1;
+    padding-top: 240px;
+    padding-left: 90px;
+}
+
+.navButton{
+    display: block;
+    font-size: 20px;
+    font-family: Veranda, sans-serif;
+    padding: 10px;
+    text-align: end;
+}
+
+#content{
+    color: rgb(153, 107, 28);
+    height: 450px;
+    display: inline-block;
+    overflow: auto;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    font-family: Veranda, sans-serif;
+    word-wrap: break-word;
+    padding-left: 240px;
+    padding-right: 8px;
+    padding-top: 200px;
+}
+
+#content:hover{
+    overflow-y: scroll;
+}
+
+.productImg{
+    width: 25%;
+    padding: 5px;
+}
+
+.styleButton {
+    background-color: rgb(114, 115, 114, 0.7); 
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 20px;
+    bottom: 0px;
+    position: fixed;
+    z-index: 3;
+}
+
+#styleA{
+    left: 5px;
+}
+
+#styleB{
+    left: 85px;
+}
+
+#styleC{
+    left: 165px;
+}
+

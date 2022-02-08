@@ -1,0 +1,133 @@
+/* 
+    Author: Karly Matthes
+    Course: CSC 337
+    File Name: styleB.css
+    Description: Styles the index.html file using these CSS attributes
+    to match the example as closely as possible. Colors and fonts vary 
+    from the original example.
+*/
+
+body{   
+    background-color: rgb(245, 229, 144);
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#header{
+    background-color: rgb(235, 218, 110);
+    color: rgb(189, 132, 34);
+    font-family: Veranda, sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    position:fixed;
+    left: 35%;
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    z-index: 2;
+}
+
+#pricecoLogo{
+    max-width: 25%;
+    height: auto;
+    width: auto;
+    float: left;
+}
+
+#navigation{
+    background-color: rgb(212, 194, 80);
+    height: 100%;
+    margin: auto;
+    position:fixed;
+    padding-top: 250px;
+    left: 35%;
+    width: 30%;
+    z-index: 1;
+}
+
+.navButton{
+    display: block;
+    font-size: 20px;
+    font-family: Veranda, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+#content{
+    color: rgb(153, 107, 28);
+    column-count: 2;
+    column-gap: 300px;
+}
+
+.productGroup{
+    text-align: center;
+    break-inside: avoid-column;
+    font-size: 18px;
+}
+
+#productsColA{
+    height: 700px;
+    margin: 60px;
+    margin-left: 20px;
+    margin-top: 0px;
+    overflow-wrap: normal;
+    overflow: hidden;
+}
+
+#productsColA:hover{
+    overflow-y: scroll;
+}
+
+
+#productsColB{
+    height: 700px;
+    margin: 60px;
+    margin-right: 20px;
+    margin-top: 0px;
+    overflow-wrap: normal;
+    overflow: hidden;
+}
+
+#productsColB:hover{
+    overflow-y: scroll;
+}
+
+.productImg{
+    width: 70%;
+    padding: 5px;
+}
+
+.styleButton {
+    background-color: rgb(114, 115, 114, 0.7); 
+    color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 20px;
+    bottom: 0px;
+    position: fixed;
+    z-index: 3;
+}
+
+#styleA{
+    left: 5px;
+}
+
+#styleB{
+    left: 85px;
+}
+
+#styleC{
+    left: 165px;
+}
+
