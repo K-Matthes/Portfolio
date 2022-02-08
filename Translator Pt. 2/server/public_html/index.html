@@ -1,0 +1,47 @@
+<!--
+    Author: Karly Matthes
+    File Name: index.html
+    Course: CSC 337
+    Description: This file provides the skeleton of a translation site.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="doStuff.js"></script>
+        <title>Translator</title>
+    </head> 
+    <body>
+            <h1 id="topbar">Translator</h1>
+
+            <div id="before">
+                <select id="translate" name="translate">
+                    <option value="e">English</option>
+                    <option value="s">Spanish</option>
+                    <option value="g">German</option>
+                </select> <br><br>
+            </div>
+
+            <div id="after">
+                <select id="translated" name="translated">
+                    <option value="e">English</option>
+                    <option value="s">Spanish</option>
+                    <option value="g">German</option>
+                </select> <br><br>
+            </div>
+
+            <div id="beforeText">
+                <input type="text" id="textBox1">
+            </div>
+
+            <div id="afterText">
+                <input type="text" id="textBox2">
+            </div>
+
+            <input type="button" id="getTranslation" onclick="getTranslation();" value="Translate"/>
+
+
+    </body>
+    </html>
