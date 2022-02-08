@@ -1,0 +1,28 @@
+<!---
+    Author: Karly Matthes
+    File Name: index.html
+    Course: CSC 337, Summer 2021
+    Description: Skeleton of server site.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="chattyBox.js"></script>
+        <title>Chatty Chat Forum</title>
+    </head> 
+    <body>
+        <div id="chatRoom">
+        </div>
+        
+        <div id="bottomBar">
+            <label for="alias"> - Alias:</label>
+            <input type="text" id="alias"><br><br>
+            <label for="message">Message:</label>
+            <input type="text" id="message"><br><br>
+            <input type="button" id="sendMessage" onclick="sendMsg();" value="Send Message"/><br><br>
+        </div>
+    </body>
+</html>

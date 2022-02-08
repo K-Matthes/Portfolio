@@ -1,0 +1,46 @@
+/*
+    Author: Karly Matthes
+    File Name: style.css
+    Course: CSC 337, Summer 2021
+    Description: Styles the HTML page by making it appear like an actual 
+    site.
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 222, 222);
+    color: rgb(122, 121, 121);
+    font-family: monospace;
+}
+
+#chatRoom{
+    overflow: auto;
+    padding-top: 5px;
+    padding-left: 5px;
+    height: 250px;
+}
+
+
+#bottomBar {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    padding: 10px;
+    color: rgb(90, 91, 92);
+    font-family: monospace;
+    background-color: rgb(167, 169, 171);
+}
+
+#alias {
+    font-family: monospace;
+}
+
+#message{
+    font-family: monospace;
+}
+
+#sendMessage{
+    font-family: monospace;
+
+}
