@@ -1,0 +1,53 @@
+<!-- 
+    Author: Karly Matthes
+    Course: CSC 337, Summer 2021
+    File Name: index.html
+    Description: Provides the skeletal information needed to create the 
+    Ostaa website. 
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="code.js"></script>
+        <title>Ostaa</title>
+    </head> 
+    <body>
+        <div id=userID>
+            <h1> Add User </h1>
+            <label for="username"> Username:</label>
+            <input type="text" id="username"><br><br>
+
+            <label for="password"> Password:</label>
+            <input type="text" id="password"><br><br>
+
+            <input type="button" id="addUser" onclick="addUser();" value="Add User"/><br><br><br>
+        </div>
+
+
+        <div id="itemID">
+            <h1> Add Item </h1>
+            <label for="title"> Title:</label>
+            <input type="text" id="title"><br><br>
+
+            <label for="desc"> Desc:</label>
+            <input type="text" id="desc"><br><br>
+
+            <label for="image"> Image:</label>
+            <input type="text" id="image"><br><br>
+
+            <label for="price"> Price:</label>
+            <input type="text" id="price"><br><br>
+
+            <label for="stat"> Status:</label>
+            <input type="text" id="stat"><br><br>
+
+            <label for="username2"> Username:</label>
+            <input type="text" id="username2"><br><br>
+
+            <input type="button" id="addItem" onclick="addItems();" value="Add Item"/>
+        </div>
+    </body>
+</html>

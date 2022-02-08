@@ -1,0 +1,22 @@
+/*
+    Author: Karly Matthes
+    Course: CSC 337, Summer 2021
+    File Name: style.css
+    Descriptin: Stylizes index.html
+*/
+
+h1{
+    font-family: Arial;
+}
+
+#userID{
+    padding-left: 15px;
+}
+
+#itemID{
+    padding-left: 15px;
+}
+
+body{
+    font-family: Arial;
+}

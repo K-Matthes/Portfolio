@@ -1,0 +1,12 @@
+---
+:id: 84048313
+:submitters:
+- :name: Karly C Matthes
+  :email: kmatthes@email.arizona.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-07-20 20:48:09.512193000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-07-20 13:48:09.512193000 Z
+:status: processed
+:score: 23.0
