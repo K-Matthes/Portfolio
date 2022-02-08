@@ -1,0 +1,43 @@
+<!---
+    Author: Karly Matthes
+    File Name: index.html
+    Course: CSC 337, Summer 2021
+    Description: Login page of Ostaa. The user can create a new account
+    or login to an existing account.     
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="code.js"></script>
+        <title>Ostaa</title>
+    </head> 
+    <body>
+        <div class="main">
+            <h1> Ostaa </h1>
+            <div id=login>
+                <h1> Login </h1>
+                <label for="username"> Username:</label>
+                <input type="text" id="username"><br><br>
+
+                <label for="password"> Password:</label>
+                <input type="password" id="password"><br><br>
+
+                <button onclick="login();" >Login</button> <br><br><br>
+            </div>
+
+            <div id=create>
+                <h1> Create Account </h1>
+                <label for="newUsername"> Username:</label>
+                <input type="text" id="newUsername"><br><br>
+
+                <label for="newPassword"> Password:</label>
+                <input type="password" id="newPassword"><br><br>
+
+                <button onclick="create();" >Create an Account</button> <br><br><br>
+            </div>
+        </div>
+    </body>
+</html>
